@@ -13202,8 +13202,10 @@ IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIismL9/3a28zTLU1qgAAAAAElFTkSuQmCC
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong></p>
-<p>Max depth = 2:</p>
-<p>As more training points are added, the model needs to become more complex and training score is getting lower but since it encapsulates the pattern better it performs better on test points. They are converging to a common score as more and more points are added to the training set.</p>
+<p>Max depth = 3:</p>
+<p>As more training points are added, the model needs to become more complex and training score is getting lower but since it encapsulates the pattern better it performs better on test points so the test score improves. In other words, testing score improves with increased complexity (to some point).</p>
+<p>They are converging to a common score as more and more points are added to the training set. Because at some point the learning algorithm has seen enough training point to capture the complexity well enough so that with more points the performance does not change much.</p>
+<p>No, adding more training points may not benefit the model.</p>
 
 </div>
 </div>
